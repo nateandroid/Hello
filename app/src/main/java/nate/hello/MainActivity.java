@@ -1,7 +1,6 @@
 package nate.hello;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
 import java.util.List;
@@ -15,10 +14,11 @@ import www.ioffers.com.GitHub;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String API_URL = "https://api.github.com/master";
-    
 
-    private Handler handler = new Handler();
+    public static final String API_URL = "https://api.github.com/master";
+
+
+//    private Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
