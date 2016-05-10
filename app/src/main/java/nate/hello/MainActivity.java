@@ -15,7 +15,7 @@ import www.ioffers.com.GitHub;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String API_URL = "https://api.github.com";
+    public static final String API_URL = "https://api.github.com/square/retrofit";
     
 
     private Handler handler = new Handler();
