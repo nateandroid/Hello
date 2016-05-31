@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
         setContentView(R.layout.activity_main);
 
         Retrofit retrofit = new Retrofit.Builder()
@@ -35,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
         GitHub github = retrofit.create(GitHub.class);
         Call<List<Contributor>> call = github.contributors("square", "retrofit");
+
+
+
+
 
         call.enqueue(new Callback<List<Contributor>>() {
             @Override
