@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         setContentView(R.layout.activity_main);
+
 //
 //        Retrofit retrofit = new Retrofit.Builder()
 //                .baseUrl(API_URL)
